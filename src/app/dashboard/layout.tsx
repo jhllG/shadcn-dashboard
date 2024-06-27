@@ -29,6 +29,7 @@ const links = [
   { name: "toast", href: "toast" },
   { name: "tabs", href: "tabs" },
   { name: "data table", href: "data-table" },
+  { name: "form", href: "form" },
 ].sort((a, b) => a.name.localeCompare(b.name));
 
 export default function DashboardLayout({
@@ -119,7 +120,7 @@ export default function DashboardLayout({
               {/* User Avatar */}
               <Avatar>
                 <AvatarImage
-                  src="https://lh3.googleusercontent.com/a/ACg8ocKwh4uILgPT9JvZqQxrvp9TIX_aGxjB61LUIy-1DNas6y455UjF=s288-c-no"
+                  src="https://github.com/shadcn.png"
                   alt="@shadcn"
                 />
                 <AvatarFallback>JG</AvatarFallback>
